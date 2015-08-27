@@ -1,10 +1,26 @@
 exports.config = {
+
   files: {
+
     javascripts: {
-      joinTo: 'app.js'
+      joinTo: {
+        'js/app.js': /^app/,
+        'js/lib.js': /^(bower_components|vendor)/
+      }
     },
+
     stylesheets: {
-      joinTo: 'app.css'
+      joinTo: 'stylesheets/app.css'
+    }
+  },
+
+  plugins: {
+    sass: {
+      debug: 'comments',
+      mode: 'native',
+      allowCache: true
     }
   }
+
 };
+

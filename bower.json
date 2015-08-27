@@ -2,6 +2,15 @@
   "name": "brunch-static-magic",
   "version": "0.0.1",
   "main": "public/app.js",
-  "dependencies": {},
-  "overrides": {}
+  "dependencies": {
+    "jquery": "1.*"
+  },
+  "overrides": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
