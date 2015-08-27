@@ -1,11 +1,11 @@
 {
-  "name": "your-app",
-  "description": "Description",
-  "author": "Your Name",
+  "name": "brunch-static-magic",
+  "description": "static file default for brunch",
+  "author": "Steven Dale",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/lifeinchords/brunch-static-magic.git"
   },
   "scripts": {
     "start": "brunch watch --server"
