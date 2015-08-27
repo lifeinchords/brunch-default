@@ -15,16 +15,6 @@ exports.config = {
         'stylesheets/lib.css': /^(vendor|bower_components)/
       }
     }
-
-    // stylesheets: {
-    //   joinTo: {
-    //     'css/app.css': /^(app|vendor|bower_components)/
-    //   },
-    //   order: {
-    //     before: ['app/styles/app.less']
-    //   }
-    // },
-
   },
 
   plugins: {
