@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "main": "public/app.js",
   "dependencies": {
-    "jquery": "1.*"
+    "jquery": "1.*",
+    "lodash": "~3.10.1"
   },
   "overrides": {},
   "ignore": [
