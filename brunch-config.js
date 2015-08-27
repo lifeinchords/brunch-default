@@ -10,8 +10,21 @@ exports.config = {
     },
 
     stylesheets: {
-      joinTo: 'stylesheets/app.css'
+      joinTo: { 
+        'stylesheets/app.css': /^app/, 
+        'stylesheets/lib.css': /^(vendor|bower_components)/
+      }
     }
+
+    // stylesheets: {
+    //   joinTo: {
+    //     'css/app.css': /^(app|vendor|bower_components)/
+    //   },
+    //   order: {
+    //     before: ['app/styles/app.less']
+    //   }
+    // },
+
   },
 
   plugins: {
@@ -23,4 +36,5 @@ exports.config = {
   }
 
 };
+
 

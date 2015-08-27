@@ -2,13 +2,16 @@
   "name": "brunch-static-magic",
   "version": "0.0.1",
   "main": "public/app.js",
+
   "dependencies": {
     "jquery": "1.*",
     "lodash": "~3.10.1",
     "gsap": "~1.17.0",
     "moment": "~2.10.6"
   },
+
   "overrides": {},
+
   "ignore": [
     "**/.*",
     "node_modules",
