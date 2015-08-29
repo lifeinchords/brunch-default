@@ -7,10 +7,40 @@
 }
 
 
-.story__header{
+
+.story__header {
   background: #aeaeae;
 }
 
-.story__image{
-  max-width: 100%;
+.story__section {
+
+}
+
+.story__image {
+}
+
+.story__client-title {
+  position: absolute;
+  width: 50%;
+  background-color: #FFF;
+  padding: 1em;
+}
+
+
+
+// XL
+@media (min-width: 48em){
+  .story__client-title {
+      
+      top: 100px;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      // width: 50%;
+      margin: auto;
+      padding: 2em;
+      
+      text-align: center;
+      text-transform: uppercase;
+  }
 }
