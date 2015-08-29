@@ -4,15 +4,15 @@ exports.config = {
 
     javascripts: {
       joinTo: {
-        'js/app.js': /^app/,
-        'js/lib.js': /^(bower_components|vendor)/
+        'js/app.js': /^app[\\\/]js/,
+        'js/vendor.js': /^(bower_components|vendor)/
       }
     },
 
     stylesheets: {
       joinTo: { 
-        'stylesheets/app.css': /^app/, 
-        'stylesheets/lib.css': /^(vendor|bower_components)/
+        'stylesheets/app.css': /^app[\\\/]stylesheets[\\\/]app/, 
+        'stylesheets/vendor.css': /^app[\\\/]stylesheets[\\\/]vendor/
       }
     }
   },
