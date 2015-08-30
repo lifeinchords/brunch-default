@@ -15,4 +15,12 @@ TODO:
 - make square crops for main image
 - add Picturefill
 - add font awesome - down blinking tab
+- set up Brunch with Heroku
+
+- fix errors: Uncaught Error: Cannot find module "app" from "/"require @ app.js:80(anonymous function) @ (index):193
+(index):196 Uncaught ReferenceError: app is not defined
+
+- add animations
+
+- youtube.video
 

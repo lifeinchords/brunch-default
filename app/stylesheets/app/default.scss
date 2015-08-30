@@ -1,12 +1,27 @@
-// $default-bg: choral !important;
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
-    font-family: Lato;
 }
+
+// allows us to add padding + borders directly to Pure grid unit classes
+.pure-g > div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+When setting the primary font stack, apply it to the Pure grid units along
+with `html`, `button`, `input`, `select`, and `textarea`. Pure Grids use
+specific font stacks to ensure the greatest OS/browser compatibility.
+*/
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: Lato, sans-serif;
+}
+
 
 
 .panel{
@@ -15,8 +30,8 @@
 
 
 
-
-// a few different techniques for using responsive, full bg images
+// fluid, full size, cover image style images, but using responsive images
+// a few different techniques for using responsive, full bg images and getting
 // goal is to do resolution switching, to save bandwidth on diff devices
 
 // http://www.webdesign.org/absolutely-responsive-full-screen-background-images.22549.html
@@ -27,7 +42,7 @@
 //   - cons: old browsers still make the extra requests. ugly hacks to fix
 
 // technique 2) image-set for background property in CSS
-//   - pros: in SCSS: can centralize bpoints. 
+//   - pros: in SCSS: can centralize bpoints. can use background:cover.
 //   - cons: no IE, nor firefox support. needs webkit alt. doesnt use w descriptors.
 
 // technique 3) srcset attribute for img in HTML markup. Use with Picture polyfill
@@ -44,9 +59,12 @@
 }
 
 .panel--bg-color {
-  background: #aeaeae;
-  // width: 100%;
-  height: 100vh;
+  background: #F3F2F2;
+  padding: 2em 2.5em;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #797979;
+  margin: 1.5em;
 }
 
 
@@ -74,7 +92,9 @@
 
 // technique 3
 .panel__background-image {
-  position: absolute; 
+  width: 100%; // for safari
+
+  // position: absolute; 
   // top: 0; 
   // right: 0; 
   // bottom: 0; 
@@ -86,9 +106,17 @@
 }
 
 
-.panel__header {
+.panel__nav {
+  padding: 2em 2.5em;
+  font-size: 1.5em;
+  color: #797979;
   background-color: white;
-  height: 10em;
+}
+
+.panel__header {
+  color: #808080;
+  font-size: 1.5em;
+  margin-bottom: 3em;
 }
 
 
