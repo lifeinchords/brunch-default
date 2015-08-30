@@ -37,12 +37,19 @@
 
 
 .panel--bg-image-srcset {
-  background: #aeaeae;
   position: relative;
-  overflow: hidden;
-  width: 100%;
+  // overflow: hidden;
+  // width: 100%;
   height: 100vh;
 }
+
+.panel--bg-color {
+  background: #aeaeae;
+  // width: 100%;
+  height: 100vh;
+}
+
+
 
 
 /*
@@ -67,14 +74,14 @@
 // technique 3
 .panel__background-image {
   position: absolute; 
-  top: 0; 
-  right: 0; 
-  bottom: 0; 
-  min-width: 100%; 
+  // top: 0; 
+  // right: 0; 
+  // bottom: 0; 
+  // min-width: 100%; 
   // min-height: 100%; /* This bit centers the image. */ 
-  left: 50%; 
-  transform: translateX(-50%);
-  overflow-x: hidden; 
+  // left: 50%; 
+  // transform: translateX(-50%);
+  // overflow-x: hidden; 
 }
 
 
