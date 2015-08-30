@@ -16,7 +16,9 @@
     "css-brunch": ">= 1.0 < 1.9",
     "uglify-js-brunch": ">= 1.0 < 1.9",
     "clean-css-brunch": ">= 1.0 < 1.9",
-    "auto-reload-brunch": ">= 1.0 < 1.9"
+    "auto-reload-brunch": ">= 1.0 < 1.9",
+    "statik": ">= 1.1.0", 
+    "brunch": "1.x"
   },
   "devDependencies": {
     "sass-brunch": "^1.8.11"
