@@ -23,6 +23,10 @@ html, button, input, select, textarea,
 }
 
 
+.texture {
+  background: #F9C0AD url(/images/bg_kachel.gif);
+  margin: 0;
+}
 
 .panel{
 
@@ -119,6 +123,15 @@ html, button, input, select, textarea,
   margin-bottom: 3em;
 }
 
+.panel__videos {
+  min-height: 30em;
+}
+
+
+.panel_footer {
+  min-height: 30em;
+  
+}
 
 
 .panel__client-title {

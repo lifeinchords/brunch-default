@@ -23,4 +23,6 @@ TODO:
 - add animations
 
 - youtube.video
+- fix zooming. not working because of width:100%, added for Safari
+
 
