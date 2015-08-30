@@ -122,34 +122,32 @@ html, button, input, select, textarea,
 
 
 .panel__client-title {
+
   position: absolute;
-  width: 80%;
-  
-  margin: auto;
-  // top: 100px;
+  /* width: 40%; */
+  /* margin: auto; */
   top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
+  /* bottom: 0; */
 
-  background-color: #FFF;
-  padding: 0.75em;
-  
+  right: 0;
   text-align: center;
   text-transform: uppercase;
-
+  color: #FFF;
+  font-size: 6em;
+  margin-top: 25vh;
 }
 
 
 
-// md
-@media (min-width: 48em){
-  .panel__client-title {
+// // md
+// @media (min-width: 48em){
+//   .panel__client-title {
       
-      // height: 4.25em;
-      width: 50%;
-      // padding: 2em;
-      font-size: 4em;
+//       // height: 4.25em;
+//       width: 50%;
+//       // padding: 2em;
+//       font-size: 4em;
 
-  }
-}
+//   }
+// }
