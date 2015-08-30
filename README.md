@@ -13,3 +13,6 @@ TODO:
 - post Q to jason bigsby
 - set up partials, to reuse panels, and cut down on responsive images markup
 - make square crops for main image
+- add Picturefill
+- add font awesome - down blinking tab
+
