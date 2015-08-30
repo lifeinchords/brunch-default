@@ -10,5 +10,5 @@ FILE STRUCTURE:
 
 TODO:
 - split out CSS in /assets into ltie8/app and ltie8/vendor, etc?
-
+- post Q to jason bigsby
 

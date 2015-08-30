@@ -11,7 +11,7 @@
 
     <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
 
-    <title>Blog &ndash; Layout Examples &ndash; Pure</title>
+    <title></title>
 
     <link rel="stylesheet" href="stylesheets/vendor.css">
 
@@ -34,19 +34,79 @@
 
 <body>
 
-    <section class="pure-g
-                    story__section
-                    story__header">
+    <section class="pure-g">
 
-        <div class="pure-u-1">
-            <img class="pure-img" src="images/2083.jpg" >
+    <!-- technique 3 -->
+        <div class="pure-u-1 
+                    panel
+                    panel--bg-image-srcset
+                    ">
+            
+            <img class="pure-img 
+                        panel__background-image" 
+                 
+                 srcset="
+                         images/100214_JW_06629_IMG_FIX_320x213.jpg 320w,
+                         images/100214_JW_06629_IMG_FIX_480x319.jpg 480w,
+                         images/100214_JW_06629_IMG_FIX_960x638.jpg 960w,
+                         images/100214_JW_06629_IMG_FIX_1200x798.jpg 1200w,
+                         images/100214_JW_06629_IMG_FIX_1600x1064.jpg 1600w,
+                         images/100214_JW_06629_IMG_FIX_2000x1330.jpg 2000w"
 
-            <div class="story__client-title">
-            Loretta Stern
+                 src="images/100214_JW_06629_IMG_FIX_960x638.jpg" alt="Loretta Stren- hosting the VMA's">
+            
+<!--             <div class="panel__client-title">
+                Fonetta Kernn
+            </div> -->
+        </div>
+
+
+    <!-- technique 2 - ->
+        <div class="pure-u-1 
+                    panel
+                    ">
+            <div class="panel__client-title">
+                Fonetta Kernn
             </div>
         </div>
+    -->
+
+
     </section>
 
+
+
+
+    <!--
+    http://alistapart.com/article/responsive-images-in-practice
+    <picture>
+        <!- - 16:9 crop ->
+        <source
+            type="image/webp"
+            media="(min-width: 36em)"
+            srcset="quilt_2/detail/large.webp  1920w,
+                    quilt_2/detail/medium.webp  960w,
+                    quilt_2/detail/small.webp   480w" />
+        <source
+            media="(min-width: 36em)"
+            srcset="quilt_2/detail/large.jpg  1920w,
+                    quilt_2/detail/medium.jpg  960w,
+                    quilt_2/detail/small.jpg   480w" />
+        <!- - square crop ->
+        <source
+            type="image/webp"
+            srcset="quilt_2/square/large.webp   822w,
+                    quilt_2/square/medium.webp  640w,
+                    quilt_2/square/small.webp   320w" />
+        <source
+            srcset="quilt_2/square/large.jpg   822w,
+                    quilt_2/square/medium.jpg  640w,
+                    quilt_2/square/small.jpg   320w" />
+        <img
+            src="quilt_2/detail/medium.jpg"
+            alt="Detail of the above quilt, highlighting the embroidery and exotic stitchwork." />
+    </picture>
+    -->
 
 
 
