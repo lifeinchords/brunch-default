@@ -9,20 +9,17 @@ FILE STRUCTURE:
 -------------
 
 TODO:
+- set up Brunch with Heroku
 - split out CSS in /assets into ltie8/app and ltie8/vendor, etc?
-- post Q to jason bigsby
-- set up partials, to reuse panels, and cut down on responsive images markup
+- set  Handlebars + partials, to reuse panels, and cut down on responsive images markup
 - make square crops for main image
 - add Picturefill
 - add font awesome - down blinking tab
-- set up Brunch with Heroku
+- https://github.com/steffenmllr/imageoptmizer-brunch
 
 - fix errors: Uncaught Error: Cannot find module "app" from "/"require @ app.js:80(anonymous function) @ (index):193
 (index):196 Uncaught ReferenceError: app is not defined
 
 - add animations
-
 - youtube.video
 - fix zooming. not working because of width:100%, added for Safari
-
-
