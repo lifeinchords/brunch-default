@@ -1,0 +1,227 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  
+  <!-- 
+  The viewport meta element lets you control the the width and scale of the viewport on mobile browsers. Since you're building a responsive website, you want the width to be equal to the device's native width
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+
+  <title></title>
+
+  <link rel="stylesheet" href="stylesheets/vendor.css">
+
+  <!-- [if lte IE 8]> -->
+    <link rel="stylesheet" href="grids-responsive-old-ie-min.css">
+  <!-- <![endif] -->
+
+  <!--[if gt IE 8]> -->
+    <link rel="stylesheet" href="grids-responsive-min.css">
+  <!-- <![endif]-->
+
+
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+<body>
+
+  <section class="pure-g">
+    <div class="pure-u-1 
+          panel
+          panel__nav
+          ">
+      MENU
+    </div>
+  </section>
+
+
+  <section class="pure-g">
+    <div class="pure-u-1 
+          panel
+          panel--bg-image-srcset" >
+      
+      <picture>
+        <source media="(orientation: portrait) and (min-device-width: 35.5em)"
+            sizes"100vw" 
+            srcset="images/2_Loretta_Stern_2011-square-320.jpg 320w,
+                images/2_Loretta_Stern_2011-square-478.jpg 478w" />
+
+        <img    class="pure-img panel__background-image" 
+            alt="Loretta Stren- closeup, smile"
+            srcset="images/2_Loretta_Stern_2011-705.jpg 705w"
+            src="images/2_Loretta_Stern_2011-705.jpg" />
+
+      </picture>
+      
+      <div class="panel__client-title ">
+        Actor Singer
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="pure-g ">
+    <div class="pure-u-1 
+          panel
+          panel--bg-color
+
+          ">
+
+
+      <div class="pure-g">
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="panel__header">Lorem Ipsum</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                </p>
+          </div>
+
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="panel__header">Dolor Sit Amet</h3>
+                <p>
+                    Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+                </p>
+          </div>
+
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="panel__header">Proident laborum</h3>
+                <p>
+                    In culpa qui officia deserunt mollit anim id est laborum. incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                </p>
+          </div>
+
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="panel__header">Praesent consectetur</h3>
+                <p>
+                   Integer vitae lectus accumsan, egestas dui eget, ullamcorper urn. In feugiat tortor at turpis rhoncus tincidunt. Duis sed porttitor ante, eget venenatis lectus.
+                </p>
+          </div>
+
+         
+
+          
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+  <section class="pure-g">
+  <!-- technique 3 -->
+    <div class="pure-u-1 
+          panel
+          panel--bg-image-srcset
+          ">
+      
+      <img class="pure-img 
+            panel__background-image" 
+         sizes="100vw"
+         srcset="
+             images/100214_JW_06629_IMG_FIX_320x213.jpg 320w,
+             images/100214_JW_06629_IMG_FIX_480x319.jpg 480w,
+             images/100214_JW_06629_IMG_FIX_960x638.jpg 960w,
+             images/100214_JW_06629_IMG_FIX_1200x798.jpg 1200w,
+             images/100214_JW_06629_IMG_FIX_1600x1064.jpg 1600w,
+             images/100214_JW_06629_IMG_FIX_2000x1330.jpg 2000w"
+
+         src="images/100214_JW_06629_IMG_FIX_960x638.jpg" alt="Loretta Stren- hosting the VMA's">
+      
+
+    </div>
+  </section>
+
+
+  <section class="pure-g">
+    <div class="pure-u-1 
+          panel
+          texture
+          panel__videos
+          ">
+      
+    </div>
+  </section>
+
+
+
+
+
+
+  <!--
+
+
+ <div class="pure-u-1">
+              <img class="pure-img" src="https://s3.amazonaws.com/ooomf-com-files/wjNV6gWuQkqeuH8txHc9_sylwiabartyzel_unsplash_tatry_03.jpg" alt="By Sylwia Bartyzel from unsplash.com">
+          </div>
+
+
+  http://alistapart.com/article/responsive-images-in-practice
+  <picture>
+    <!- - 16:9 crop ->
+    <source
+      type="image/webp"
+      media="(min-width: 36em)"
+      srcset="quilt_2/detail/large.webp  1920w,
+          quilt_2/detail/medium.webp  960w,
+          quilt_2/detail/small.webp   480w" />
+    <source
+      media="(min-width: 36em)"
+      srcset="quilt_2/detail/large.jpg  1920w,
+          quilt_2/detail/medium.jpg  960w,
+          quilt_2/detail/small.jpg   480w" />
+    <!- - square crop ->
+    <source
+      type="image/webp"
+      srcset="quilt_2/square/large.webp   822w,
+          quilt_2/square/medium.webp  640w,
+          quilt_2/square/small.webp   320w" />
+    <source
+      srcset="quilt_2/square/large.jpg   822w,
+          quilt_2/square/medium.jpg  640w,
+          quilt_2/square/small.jpg   320w" />
+    <img
+      src="quilt_2/detail/medium.jpg"
+      alt="Detail of the above quilt, highlighting the embroidery and exotic stitchwork." />
+  </picture>
+
+
+
+  -->
+
+
+
+  <script src="js/app.js"></script>
+  <script src="js/vendor.js"></script>
+  
+  <script>require('app').init();</script>
+
+  <script>
+    app.yui.use('node-base', 'node-event-delegate', function (Y) {
+      // This just makes sure that the href="#" attached to the <a> elements
+      // don't scroll you back up the page.
+      Y.one('body').delegate('click', function (e) {
+        e.preventDefault();
+      }, 'a[href="#"]');
+    });
+  </script>
+
+
+
+</body>
+</html>
