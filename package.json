@@ -9,19 +9,21 @@
   },
   "license": "GPL-3.0",
   "scripts": {
-    "start": "brunch watch --server"
+    "start": "brunch watch --server",
+    "postinstall": "brunch build --production"
   },
   "dependencies": {
     "auto-reload-brunch": ">= 1.0 < 1.9",
-    "brunch": "1.x",
     "clean-css-brunch": ">= 1.0 < 1.9",
     "css-brunch": ">= 1.0 < 1.9",
     "handlebars-brunch": "^1.9.1",
     "javascript-brunch": ">= 1.0 < 1.9",
     "statik": ">= 1.1.0",
+    "brunch": "1.x",
     "uglify-js-brunch": ">= 1.0 < 1.9"
   },
   "devDependencies": {
     "sass-brunch": "^1.8.11"
   }
 }
+
