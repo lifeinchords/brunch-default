@@ -3,15 +3,22 @@
   "description": "static file default for brunch",
   "author": "Steven Dale",
   "version": "0.1.0",
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.1.x"
+  },
+
   "repository": {
     "type": "git",
     "url": "https://github.com/lifeinchords/brunch-static-magic.git"
   },
+  
   "license": "GPL-3.0",
   "scripts": {
     "start": "brunch watch --server",
-    "postinstall": "brunch build --production"
+    "postinstall": "bower install && brunch build --production"
   },
+  
   "dependencies": {
     "auto-reload-brunch": ">= 1.0 < 1.9",
     "clean-css-brunch": ">= 1.0 < 1.9",
@@ -22,6 +29,7 @@
     "brunch": "1.x",
     "uglify-js-brunch": ">= 1.0 < 1.9"
   },
+  
   "devDependencies": {
     "sass-brunch": "^1.8.11"
   }
