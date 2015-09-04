@@ -5,6 +5,7 @@ exports.config = {
     javascripts: {
       joinTo: {
         'js/app.js': /^app[\\\/]js/,
+        'app/server.js': 'app/server.js',
         'js/vendor.js': /^(bower_components|vendor)/
       }
     },
