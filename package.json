@@ -15,8 +15,8 @@
   
   "license": "GPL-3.0",
   "scripts": {
-    "start": "brunch watch --server",
-    "postinstall": "bower install && brunch build --production"
+    "postinstall": "bower install && brunch build --production",
+    "start": "brunch watch --server"
   },
   
   "dependencies": {
