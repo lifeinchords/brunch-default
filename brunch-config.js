@@ -4,8 +4,8 @@ exports.config = {
 
     javascripts: {
       joinTo: {
-        'js/app.js': /^app[\\\/]js/,
-        'js/vendor.js': /^(bower_components|vendor)/
+        'js/vendor.js': /^(bower_components|vendor)/,
+        'js/app.js': /^app[\\\/]js/
       }
     },
 
